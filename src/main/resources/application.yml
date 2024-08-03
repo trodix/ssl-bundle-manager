@@ -1,0 +1,15 @@
+spring:
+  ssl:
+    bundle:
+      jks:
+        mykeystore1:
+          key:
+            alias: "acme"
+            password: "password"
+          keystore:
+            location: "classpath:certs/mykeystore1.p12"
+            password: "password"
+        mytruststore1:
+          truststore:
+            location: "classpath:certs/mytruststore1.jks"
+            password: "changeit"
