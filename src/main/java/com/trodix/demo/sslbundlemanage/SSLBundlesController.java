@@ -19,7 +19,12 @@ public class SSLBundlesController {
 
     @GetMapping
     public Map<String, List<CertificateUtils.CertInfo>> info() {
-        return certificateUtils.getBundlesCertificates();
+        return certificateUtils.getAllCertificates();
+    }
+
+    @GetMapping("count")
+    public int count() {
+        return certificateUtils.getAllCertificates().size();
     }
 
 }

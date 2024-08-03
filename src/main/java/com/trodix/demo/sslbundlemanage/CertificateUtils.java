@@ -1,6 +1,5 @@
 package com.trodix.demo.sslbundlemanage;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.ssl.JksSslBundleProperties;
 import org.springframework.boot.autoconfigure.ssl.SslProperties;
 import org.springframework.core.io.ResourceLoader;
@@ -22,28 +21,25 @@ import java.util.*;
 @Component
 public class CertificateUtils {
 
-    @Autowired
-    private SslProperties sslProperties;
+    private final SslProperties sslProperties;
 
-    @Autowired
-    private ResourceLoader resourceLoader;
+    private final ResourceLoader resourceLoader;
 
-    public Map<String, List<CertInfo>> getBundlesCertificates() {
-        Map<String, List<X509Certificate>> data = iterateBundles(sslProperties.getBundle().getJks());
+    public CertificateUtils(SslProperties sslProperties, ResourceLoader resourceLoader) {
+        this.sslProperties = sslProperties;
+        this.resourceLoader = resourceLoader;
+    }
+
+    public Map<String, List<CertInfo>> getAllCertificates() {
+        Map<String, List<X509Certificate>> data = new HashMap<>();
+
+        data.putAll(listCertificatesFromSSLBundles());
+        data.putAll(listCertificatesJvmTruststore());
+        data.putAll(listCertificatesJvmKeystore());
 
         Map<String, List<CertInfo>> res = new HashMap<>();
         for (Map.Entry<String, List<X509Certificate>> entry : data.entrySet()) {
-            List<CertInfo> subs = new ArrayList<>();
-            for (X509Certificate certificate : entry.getValue()) {
-                CertInfo sub = new CertInfo(
-                        certificate.getSerialNumber(),
-                        certificate.getSubjectX500Principal().getName(),
-                        certificate.getIssuerX500Principal().getName(),
-                        certificate.getNotBefore(),
-                        certificate.getNotAfter()
-                );
-                subs.add(sub);
-            }
+            List<CertInfo> subs = getCertInfos(entry);
             Collections.sort(subs);
             res.put(entry.getKey(), subs);
         }
@@ -51,15 +47,29 @@ public class CertificateUtils {
         return res;
     }
 
-    public Map<String, List<X509Certificate>> iterateBundles(Map<String, JksSslBundleProperties> bundlePropertiesMap) {
+    private List<CertInfo> getCertInfos(Map.Entry<String, List<X509Certificate>> entry) {
+        List<CertInfo> subs = new ArrayList<>();
+        for (X509Certificate certificate : entry.getValue()) {
+            CertInfo sub = new CertInfo(
+                    certificate.getSerialNumber(),
+                    certificate.getSubjectX500Principal().getName(),
+                    certificate.getIssuerX500Principal().getName(),
+                    certificate.getNotBefore(),
+                    certificate.getNotAfter()
+            );
+            subs.add(sub);
+        }
+        return subs;
+    }
+
+    public Map<String, List<X509Certificate>> listCertificatesFromSSLBundles() {
         Map<String, List<X509Certificate>> certsMap = new HashMap<>();
 
-        for (Map.Entry<String, JksSslBundleProperties> entry : bundlePropertiesMap.entrySet()) {
+        for (Map.Entry<String, JksSslBundleProperties> entry : sslProperties.getBundle().getJks().entrySet()) {
             String locationKeystore = entry.getValue().getKeystore().getLocation();
             if (locationKeystore != null) {
                 try {
-                    List<X509Certificate> keystoreCerts = listCertificates(entry.getValue().getKeystore());
-                    certsMap.put(locationKeystore, keystoreCerts);
+                    certsMap.putAll(listCertificatesFromSSLBundlesStore(entry.getValue().getKeystore()));
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -67,8 +77,7 @@ public class CertificateUtils {
             String locationTruststore = entry.getValue().getTruststore().getLocation();
             if (locationTruststore != null) {
                 try {
-                    List<X509Certificate> truststoreCerts = listCertificates(entry.getValue().getTruststore());
-                    certsMap.put(locationTruststore, truststoreCerts);
+                    certsMap.putAll(listCertificatesFromSSLBundlesStore(entry.getValue().getTruststore()));
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -78,30 +87,79 @@ public class CertificateUtils {
         return certsMap;
     }
 
-    public List<X509Certificate> listCertificates(JksSslBundleProperties.Store store) throws NoSuchAlgorithmException, IOException, KeyStoreException, CertificateException {
+    public Map<String, List<X509Certificate>> listCertificatesFromSSLBundlesStore(JksSslBundleProperties.Store store) throws NoSuchAlgorithmException, IOException, KeyStoreException, CertificateException {
 
-        TrustManagerFactory trustManagerFactory=TrustManagerFactory
-                .getInstance(TrustManagerFactory
-                        .getDefaultAlgorithm());
+        Map<String, List<X509Certificate>> res = new HashMap<>();
 
-        ;
-        try(InputStream fis = resourceLoader.getResource(store.getLocation()).getInputStream()) {
+        try {
+            res.put(store.getLocation(), listCertificates(store.getLocation(), store.getPassword()));
+        } catch (Exception e) {
+            e.printStackTrace();
+            return res;
+        }
+
+        return res;
+    }
+
+    public Map<String, List<X509Certificate>> listCertificatesJvmTruststore() {
+        String trustStorePath = System.getProperty("javax.net.ssl.trustStore");
+        String trustStorePassword = System.getProperty("javax.net.ssl.trustStorePassword");
+
+        Map<String, List<X509Certificate>> res = new HashMap<>();
+
+        if (trustStorePath == null || trustStorePassword == null) {
+            return res;
+        }
+
+        try {
+            res.put(trustStorePath, listCertificates(trustStorePath, trustStorePassword));
+        } catch (Exception e) {
+            e.printStackTrace();
+            return res;
+        }
+
+        return res;
+    }
+
+    public Map<String, List<X509Certificate>> listCertificatesJvmKeystore() {
+        String keysStorePath = System.getProperty("javax.net.ssl.keyStore");
+        String keysStorePassword = System.getProperty("javax.net.ssl.keyStorePassword");
+
+        Map<String, List<X509Certificate>> res = new HashMap<>();
+
+        if (keysStorePath == null || keysStorePassword == null) {
+            return res;
+        }
+
+        try {
+            res.put(keysStorePath, listCertificates(keysStorePath, keysStorePassword));
+        } catch (Exception e) {
+            e.printStackTrace();
+            return res;
+        }
+
+        return res;
+    }
+
+    public List<X509Certificate> listCertificates(String filePath, String password) throws NoSuchAlgorithmException, IOException, KeyStoreException, CertificateException {
+
+        TrustManagerFactory trustManagerFactory = TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
+        try(InputStream fis = resourceLoader.getResource(filePath).getInputStream()) {
 
             KeyStore keyStore=KeyStore.getInstance(KeyStore.getDefaultType());
-            keyStore.load(fis, store.getPassword().toCharArray());
+            keyStore.load(fis, password.toCharArray());
             trustManagerFactory.init(keyStore);
         }
 
-        TrustManager[] truestManagers=trustManagerFactory.getTrustManagers();
+        TrustManager[] trustManagers = trustManagerFactory.getTrustManagers();
         List<X509Certificate> certs = new ArrayList<>();
-        for(TrustManager t:truestManagers) {
-            for(X509Certificate c:((X509TrustManager)t).getAcceptedIssuers()) {
+        for (TrustManager t : trustManagers) {
+            for (X509Certificate c:((X509TrustManager)t).getAcceptedIssuers()) {
                 certs.add(c);
             }
         }
 
         return certs;
-
     }
 
     public class CertInfo implements Comparable<CertInfo> {
