@@ -1,3 +1,7 @@
+logging:
+  file:
+    name: logs/application.log
+
 spring:
   ssl:
     bundle:
@@ -13,3 +17,28 @@ spring:
           truststore:
             location: "classpath:certs/mytruststore1.jks"
             password: "changeit"
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:9000
+        username: admin
+        password: admin
+        instance:
+          metadata:
+            user:
+              name: ${spring.security.user.name}
+              password: ${spring.security.user.password}
+  security:
+    user:
+      name: client
+      password: client
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true

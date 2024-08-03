@@ -1,0 +1,1139 @@
+2024-08-03T15:33:18.617+02:00  INFO 30109 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 30109 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:33:18.619+02:00  INFO 30109 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:33:19.658+02:00  INFO 30109 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:33:19.665+02:00  INFO 30109 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:33:19.665+02:00  INFO 30109 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:33:19.698+02:00  INFO 30109 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:33:19.698+02:00  INFO 30109 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1049 ms
+2024-08-03T15:33:19.851+02:00  WARN 30109 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 737b0eb0-7513-41e0-81b9-cd4690e89789
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-08-03T15:33:19.862+02:00  INFO 30109 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:33:20.104+02:00  INFO 30109 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:33:20.275+02:00  WARN 30109 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:33:20.737+02:00  INFO 30109 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:33:20.751+02:00  INFO 30109 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.496 seconds (process running for 2.972)
+2024-08-03T15:33:20.860+02:00  INFO 30109 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:33:20.860+02:00  INFO 30109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:33:20.861+02:00  INFO 30109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T15:33:21.026+02:00  INFO 30109 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T15:36:53.970+02:00  INFO 30529 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 30529 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:36:53.972+02:00  INFO 30529 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:36:55.031+02:00  INFO 30529 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:36:55.038+02:00  INFO 30529 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:36:55.038+02:00  INFO 30529 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:36:55.071+02:00  INFO 30529 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:36:55.072+02:00  INFO 30529 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1070 ms
+2024-08-03T15:36:55.227+02:00  WARN 30529 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ef06d957-c9d9-43a0-83cb-96213348745a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-08-03T15:36:55.238+02:00  INFO 30529 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:36:55.464+02:00  INFO 30529 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:36:55.646+02:00  WARN 30529 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:36:56.107+02:00  INFO 30529 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:36:56.121+02:00  INFO 30529 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.51 seconds (process running for 2.967)
+2024-08-03T15:36:56.223+02:00  INFO 30529 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:36:56.223+02:00  INFO 30529 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:36:56.225+02:00  INFO 30529 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T15:36:56.271+02:00  WARN 30529 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/) at spring-boot-admin ([http://localhost:8080/instances]): 401 : [no body]. Further attempts are logged on DEBUG level
+2024-08-03T15:40:06.251+02:00  INFO 30808 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 30808 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:40:06.252+02:00  INFO 30808 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:40:07.263+02:00  INFO 30808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:40:07.270+02:00  INFO 30808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:40:07.271+02:00  INFO 30808 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:40:07.303+02:00  INFO 30808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:40:07.304+02:00  INFO 30808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1022 ms
+2024-08-03T15:40:07.472+02:00  INFO 30808 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:40:07.714+02:00  INFO 30808 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:40:07.894+02:00  WARN 30808 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:40:08.366+02:00  INFO 30808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:40:08.379+02:00  INFO 30808 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.482 seconds (process running for 2.969)
+2024-08-03T15:40:08.484+02:00  INFO 30808 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:40:08.484+02:00  INFO 30808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:40:08.485+02:00  INFO 30808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T15:40:08.833+02:00  INFO 30808 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T15:40:36.981+02:00  WARN 30808 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T15:41:07.383+02:00  WARN 30808 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T15:41:11.159+02:00  WARN 30808 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T15:41:15.461+02:00  WARN 30808 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T15:43:15.274+02:00  INFO 31187 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 31187 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:43:15.275+02:00  INFO 31187 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:43:16.291+02:00  INFO 31187 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:43:16.305+02:00  INFO 31187 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:43:16.305+02:00  INFO 31187 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:43:16.337+02:00  INFO 31187 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:43:16.338+02:00  INFO 31187 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1035 ms
+2024-08-03T15:43:16.497+02:00  INFO 31187 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:43:16.717+02:00  INFO 31187 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:43:16.891+02:00  WARN 31187 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:43:17.333+02:00  INFO 31187 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:43:17.346+02:00  INFO 31187 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.408 seconds (process running for 2.86)
+2024-08-03T15:43:17.452+02:00  INFO 31187 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:43:17.452+02:00  INFO 31187 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:43:17.453+02:00  INFO 31187 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T15:43:17.783+02:00  INFO 31187 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T15:43:17.898+02:00  INFO 31187 --- [reactor-http-epoll-2] d.c.b.admin.server.services.InfoUpdater  : Couldn't retrieve info for Instance(id=d8cf5d6447c9, version=2, registration=Registration(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={error=Unauthorized, status=401}), statusTimestamp=2024-08-03T13:43:17.847301035Z, info=Info(values={}), endpoints=Endpoints(endpoints={caches=Endpoint(id=caches, url=http://trodix.local:8080/actuator/caches), loggers=Endpoint(id=loggers, url=http://trodix.local:8080/actuator/loggers), logfile=Endpoint(id=logfile, url=http://trodix.local:8080/actuator/logfile), health=Endpoint(id=health, url=http://trodix.local:8080/actuator/health), env=Endpoint(id=env, url=http://trodix.local:8080/actuator/env), heapdump=Endpoint(id=heapdump, url=http://trodix.local:8080/actuator/heapdump), scheduledtasks=Endpoint(id=scheduledtasks, url=http://trodix.local:8080/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://trodix.local:8080/actuator/mappings), beans=Endpoint(id=beans, url=http://trodix.local:8080/actuator/beans), configprops=Endpoint(id=configprops, url=http://trodix.local:8080/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://trodix.local:8080/actuator/threaddump), sbom=Endpoint(id=sbom, url=http://trodix.local:8080/actuator/sbom), metrics=Endpoint(id=metrics, url=http://trodix.local:8080/actuator/metrics), conditions=Endpoint(id=conditions, url=http://trodix.local:8080/actuator/conditions), info=Endpoint(id=info, url=http://trodix.local:8080/actuator/info)}), buildVersion=null, tags=Tags(values={})): 401 UNAUTHORIZED
+2024-08-03T15:43:37.187+02:00  INFO 31187 --- [reactor-http-epoll-3] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=d8cf5d6447c9, version=2, registration=Registration(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={error=Unauthorized, status=401}), statusTimestamp=2024-08-03T13:43:17.847301035Z, info=Info(values={}), endpoints=Endpoints(endpoints={caches=Endpoint(id=caches, url=http://trodix.local:8080/actuator/caches), loggers=Endpoint(id=loggers, url=http://trodix.local:8080/actuator/loggers), logfile=Endpoint(id=logfile, url=http://trodix.local:8080/actuator/logfile), health=Endpoint(id=health, url=http://trodix.local:8080/actuator/health), env=Endpoint(id=env, url=http://trodix.local:8080/actuator/env), heapdump=Endpoint(id=heapdump, url=http://trodix.local:8080/actuator/heapdump), scheduledtasks=Endpoint(id=scheduledtasks, url=http://trodix.local:8080/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://trodix.local:8080/actuator/mappings), beans=Endpoint(id=beans, url=http://trodix.local:8080/actuator/beans), configprops=Endpoint(id=configprops, url=http://trodix.local:8080/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://trodix.local:8080/actuator/threaddump), sbom=Endpoint(id=sbom, url=http://trodix.local:8080/actuator/sbom), metrics=Endpoint(id=metrics, url=http://trodix.local:8080/actuator/metrics), conditions=Endpoint(id=conditions, url=http://trodix.local:8080/actuator/conditions), info=Endpoint(id=info, url=http://trodix.local:8080/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+org.springframework.web.reactive.function.client.WebClientRequestException: executor not accepting a task
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:136) ~[spring-webflux-6.1.11.jar:6.1.11]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoErrorSupplied] :
+	reactor.core.publisher.Mono.error(Mono.java:315)
+	org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.wrapException(ExchangeFunctions.java:136)
+Error has been observed at the following site(s):
+	*____________Mono.error ⇢ at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.wrapException(ExchangeFunctions.java:136)
+	*____Mono.onErrorResume ⇢ at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.exchange(ExchangeFunctions.java:105)
+	|_             Mono.map ⇢ at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.exchange(ExchangeFunctions.java:106)
+	|_        Mono.doOnNext ⇢ at org.springframework.web.reactive.function.client.DefaultWebClient$ObservationFilterFunction.filter(DefaultWebClient.java:737)
+	|_         Mono.timeout ⇢ at de.codecentric.boot.admin.server.web.client.InstanceExchangeFilterFunctions.lambda$timeout$14(InstanceExchangeFilterFunctions.java:201)
+	|_           Mono.retry ⇢ at de.codecentric.boot.admin.server.web.client.InstanceExchangeFilterFunctions.lambda$retry$13(InstanceExchangeFilterFunctions.java:191)
+	|_             Mono.map ⇢ at de.codecentric.boot.admin.server.web.client.InstanceExchangeFilterFunctions.lambda$handleCookies$18(InstanceExchangeFilterFunctions.java:230)
+	|_             Mono.map ⇢ at de.codecentric.boot.admin.server.web.client.InstanceExchangeFilterFunctions.lambda$convertLegacyEndpoints$8(InstanceExchangeFilterFunctions.java:143)
+	*__________Mono.flatMap ⇢ at de.codecentric.boot.admin.server.web.client.InstanceWebClient.lambda$setInstance$3(InstanceWebClient.java:61)
+	|_           checkpoint ⇢ Request to GET health [DefaultWebClient]
+	|_   Mono.switchIfEmpty ⇢ at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultRequestBodyUriSpec.lambda$exchange$11(DefaultWebClient.java:461)
+	|_        Mono.doOnNext ⇢ at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultRequestBodyUriSpec.lambda$exchange$11(DefaultWebClient.java:467)
+	|_       Mono.doOnError ⇢ at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultRequestBodyUriSpec.lambda$exchange$11(DefaultWebClient.java:468)
+	|_       Mono.doFinally ⇢ at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultRequestBodyUriSpec.lambda$exchange$11(DefaultWebClient.java:469)
+	|_    Mono.contextWrite ⇢ at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultRequestBodyUriSpec.lambda$exchange$11(DefaultWebClient.java:475)
+	*__Mono.deferContextual ⇢ at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultRequestBodyUriSpec.exchange(DefaultWebClient.java:443)
+	|_         Mono.flatMap ⇢ at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultRequestBodyUriSpec.exchangeToMono(DefaultWebClient.java:411)
+	|_             Mono.log ⇢ at de.codecentric.boot.admin.server.services.StatusUpdater.doUpdateStatus(StatusUpdater.java:84)
+	|_         Mono.timeout ⇢ at de.codecentric.boot.admin.server.services.StatusUpdater.doUpdateStatus(StatusUpdater.java:85)
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:136) ~[spring-webflux-6.1.11.jar:6.1.11]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4568) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onError(FluxPeekFuseable.java:234) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onError(FluxPeekFuseable.java:234) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onError(FluxPeekFuseable.java:234) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:205) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:229) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:279) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:327) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:212) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:476) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:620) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:874) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:136) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:337) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:136) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1743) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:196) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:205) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:311) ~[reactor-netty-http-1.1.21.jar:1.1.21]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:205) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:172) ~[reactor-netty-core-1.1.21.jar:1.1.21]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:480) ~[reactor-netty-core-1.1.21.jar:1.1.21]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:436) ~[reactor-netty-core-1.1.21.jar:1.1.21]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:205) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:583) ~[reactor-netty-core-1.1.21.jar:1.1.21]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:241) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:315) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4568) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:76) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise._subscribe(TransportConnector.java:638) ~[reactor-netty-core-1.1.21.jar:1.1.21]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.lambda$subscribe$0(TransportConnector.java:550) ~[reactor-netty-core-1.1.21.jar:1.1.21]
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask$$$capture(AbstractEventExecutor.java:173) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:166) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:408) ~[netty-transport-classes-epoll-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.IllegalStateException: executor not accepting a task
+	at io.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:61) ~[netty-resolver-4.1.111.Final.jar:4.1.111.Final]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoError] :
+	reactor.core.publisher.Mono.error(Mono.java:299)
+	reactor.netty.transport.TransportConnector.doResolveAndConnect(TransportConnector.java:308)
+Error has been observed at the following site(s):
+	*____________Mono.error ⇢ at reactor.netty.transport.TransportConnector.doResolveAndConnect(TransportConnector.java:308)
+	|_   Mono.onErrorResume ⇢ at reactor.netty.transport.TransportConnector.lambda$connect$6(TransportConnector.java:166)
+	*__________Mono.flatMap ⇢ at reactor.netty.transport.TransportConnector.connect(TransportConnector.java:165)
+	*___________Mono.create ⇢ at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator.connectChannel(DefaultPooledConnectionProvider.java:535)
+	*___________Mono.create ⇢ at reactor.netty.resources.PooledConnectionProvider.acquire(PooledConnectionProvider.java:126)
+	*___________Mono.create ⇢ at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect.subscribe(HttpClientConnect.java:210)
+	|_       Mono.retryWhen ⇢ at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect.subscribe(HttpClientConnect.java:275)
+	*________Flux.concatMap ⇢ at reactor.util.retry.RetrySpec.lambda$generateCompanion$6(RetrySpec.java:360)
+	|_     Flux.onErrorStop ⇢ at reactor.util.retry.RetrySpec.lambda$generateCompanion$6(RetrySpec.java:379)
+	*__Flux.deferContextual ⇢ at reactor.util.retry.RetrySpec.generateCompanion(RetrySpec.java:357)
+	*______Mono.flatMapMany ⇢ at reactor.netty.http.client.HttpClientFinalizer.responseConnection(HttpClientFinalizer.java:102)
+	|_            Flux.next ⇢ at org.springframework.http.client.reactive.ReactorClientHttpConnector.connect(ReactorClientHttpConnector.java:165)
+	|_      Mono.doOnCancel ⇢ at org.springframework.http.client.reactive.ReactorClientHttpConnector.connect(ReactorClientHttpConnector.java:166)
+	|_     Mono.doOnRequest ⇢ at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.exchange(ExchangeFunctions.java:103)
+	|_      Mono.doOnCancel ⇢ at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.exchange(ExchangeFunctions.java:104)
+Original Stack Trace:
+		at io.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:61) ~[netty-resolver-4.1.111.Final.jar:4.1.111.Final]
+		at reactor.netty.transport.TransportConnector.doResolveAndConnect(TransportConnector.java:303) ~[reactor-netty-core-1.1.21.jar:1.1.21]
+		at reactor.netty.transport.TransportConnector.lambda$connect$6(TransportConnector.java:165) ~[reactor-netty-core-1.1.21.jar:1.1.21]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132) ~[reactor-core-3.6.8.jar:3.6.8]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise._subscribe(TransportConnector.java:638) ~[reactor-netty-core-1.1.21.jar:1.1.21]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.lambda$subscribe$0(TransportConnector.java:550) ~[reactor-netty-core-1.1.21.jar:1.1.21]
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask$$$capture(AbstractEventExecutor.java:173) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:166) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:408) ~[netty-transport-classes-epoll-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.111.Final.jar:4.1.111.Final]
+		at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T15:43:41.441+02:00  INFO 31365 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 31365 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:43:41.443+02:00  INFO 31365 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:43:42.496+02:00  INFO 31365 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:43:42.503+02:00  INFO 31365 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:43:42.504+02:00  INFO 31365 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:43:42.536+02:00  INFO 31365 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:43:42.536+02:00  INFO 31365 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1063 ms
+2024-08-03T15:43:42.707+02:00  INFO 31365 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:43:42.943+02:00  INFO 31365 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:43:43.123+02:00  WARN 31365 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:43:43.567+02:00  INFO 31365 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:43:43.582+02:00  INFO 31365 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.497 seconds (process running for 2.927)
+2024-08-03T15:43:43.693+02:00  INFO 31365 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:43:43.693+02:00  INFO 31365 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:43:43.694+02:00  INFO 31365 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T15:43:44.041+02:00  INFO 31365 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T15:43:44.142+02:00  INFO 31365 --- [reactor-http-epoll-2] d.c.b.admin.server.services.InfoUpdater  : Couldn't retrieve info for Instance(id=d8cf5d6447c9, version=2, registration=Registration(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={error=Unauthorized, status=401}), statusTimestamp=2024-08-03T13:43:44.094565216Z, info=Info(values={}), endpoints=Endpoints(endpoints={caches=Endpoint(id=caches, url=http://trodix.local:8080/actuator/caches), loggers=Endpoint(id=loggers, url=http://trodix.local:8080/actuator/loggers), logfile=Endpoint(id=logfile, url=http://trodix.local:8080/actuator/logfile), health=Endpoint(id=health, url=http://trodix.local:8080/actuator/health), env=Endpoint(id=env, url=http://trodix.local:8080/actuator/env), heapdump=Endpoint(id=heapdump, url=http://trodix.local:8080/actuator/heapdump), scheduledtasks=Endpoint(id=scheduledtasks, url=http://trodix.local:8080/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://trodix.local:8080/actuator/mappings), beans=Endpoint(id=beans, url=http://trodix.local:8080/actuator/beans), configprops=Endpoint(id=configprops, url=http://trodix.local:8080/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://trodix.local:8080/actuator/threaddump), sbom=Endpoint(id=sbom, url=http://trodix.local:8080/actuator/sbom), metrics=Endpoint(id=metrics, url=http://trodix.local:8080/actuator/metrics), conditions=Endpoint(id=conditions, url=http://trodix.local:8080/actuator/conditions), info=Endpoint(id=info, url=http://trodix.local:8080/actuator/info)}), buildVersion=null, tags=Tags(values={})): 401 UNAUTHORIZED
+2024-08-03T15:44:17.553+02:00  INFO 31558 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 31558 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:44:17.555+02:00  INFO 31558 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:44:18.595+02:00  INFO 31558 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:44:18.603+02:00  INFO 31558 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:44:18.603+02:00  INFO 31558 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:44:18.636+02:00  INFO 31558 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:44:18.636+02:00  INFO 31558 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1049 ms
+2024-08-03T15:44:18.797+02:00  INFO 31558 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:44:19.026+02:00  INFO 31558 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:44:19.196+02:00  WARN 31558 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:44:19.654+02:00  INFO 31558 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:44:19.668+02:00  INFO 31558 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.456 seconds (process running for 2.885)
+2024-08-03T15:44:19.770+02:00  INFO 31558 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:44:19.770+02:00  INFO 31558 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:44:19.772+02:00  INFO 31558 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T15:44:20.122+02:00  INFO 31558 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T15:46:03.766+02:00  INFO 31786 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 31786 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:46:03.767+02:00  INFO 31786 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:46:04.779+02:00  INFO 31786 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:46:04.786+02:00  INFO 31786 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:46:04.786+02:00  INFO 31786 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:46:04.820+02:00  INFO 31786 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:46:04.820+02:00  INFO 31786 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1024 ms
+2024-08-03T15:46:04.998+02:00  INFO 31786 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:46:05.236+02:00  INFO 31786 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:46:05.414+02:00  WARN 31786 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:46:05.875+02:00  INFO 31786 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:46:05.888+02:00  INFO 31786 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.455 seconds (process running for 2.917)
+2024-08-03T15:46:05.994+02:00  INFO 31786 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:46:05.995+02:00  INFO 31786 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:46:05.996+02:00  INFO 31786 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T15:46:06.349+02:00  INFO 31786 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T15:46:06.444+02:00  INFO 31786 --- [reactor-http-epoll-2] d.c.b.admin.server.services.InfoUpdater  : Couldn't retrieve info for Instance(id=d8cf5d6447c9, version=2, registration=Registration(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/, source=http-api), registered=true, statusInfo=StatusInfo(status=DOWN, details={error=Unauthorized, status=401}), statusTimestamp=2024-08-03T13:46:06.399201555Z, info=Info(values={}), endpoints=Endpoints(endpoints={caches=Endpoint(id=caches, url=http://trodix.local:8080/actuator/caches), loggers=Endpoint(id=loggers, url=http://trodix.local:8080/actuator/loggers), logfile=Endpoint(id=logfile, url=http://trodix.local:8080/actuator/logfile), health=Endpoint(id=health, url=http://trodix.local:8080/actuator/health), env=Endpoint(id=env, url=http://trodix.local:8080/actuator/env), heapdump=Endpoint(id=heapdump, url=http://trodix.local:8080/actuator/heapdump), scheduledtasks=Endpoint(id=scheduledtasks, url=http://trodix.local:8080/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://trodix.local:8080/actuator/mappings), beans=Endpoint(id=beans, url=http://trodix.local:8080/actuator/beans), configprops=Endpoint(id=configprops, url=http://trodix.local:8080/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://trodix.local:8080/actuator/threaddump), sbom=Endpoint(id=sbom, url=http://trodix.local:8080/actuator/sbom), metrics=Endpoint(id=metrics, url=http://trodix.local:8080/actuator/metrics), conditions=Endpoint(id=conditions, url=http://trodix.local:8080/actuator/conditions), info=Endpoint(id=info, url=http://trodix.local:8080/actuator/info)}), buildVersion=null, tags=Tags(values={})): 401 UNAUTHORIZED
+2024-08-03T15:46:37.869+02:00  INFO 32019 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 32019 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:46:37.871+02:00  INFO 32019 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:46:38.925+02:00  INFO 32019 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:46:38.932+02:00  INFO 32019 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:46:38.933+02:00  INFO 32019 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:46:38.966+02:00  INFO 32019 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:46:38.966+02:00  INFO 32019 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1063 ms
+2024-08-03T15:46:39.130+02:00  INFO 32019 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:46:39.362+02:00  INFO 32019 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:46:39.539+02:00  WARN 32019 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:46:39.993+02:00  INFO 32019 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:46:40.007+02:00  INFO 32019 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.49 seconds (process running for 2.913)
+2024-08-03T15:46:40.118+02:00  INFO 32019 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:46:40.118+02:00  INFO 32019 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:46:40.120+02:00  INFO 32019 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-03T15:46:40.465+02:00  INFO 32019 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T15:47:17.361+02:00  INFO 32265 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 32265 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:47:17.363+02:00  INFO 32265 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:47:18.428+02:00  INFO 32265 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:47:18.435+02:00  INFO 32265 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:47:18.435+02:00  INFO 32265 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:47:18.465+02:00  INFO 32265 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:47:18.466+02:00  INFO 32265 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1071 ms
+2024-08-03T15:47:18.638+02:00  INFO 32265 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:47:18.879+02:00  INFO 32265 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:47:19.059+02:00  WARN 32265 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:47:19.519+02:00  INFO 32265 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:47:19.533+02:00  INFO 32265 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.503 seconds (process running for 2.921)
+2024-08-03T15:47:19.646+02:00  INFO 32265 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:47:19.646+02:00  INFO 32265 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:47:19.648+02:00  INFO 32265 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T15:47:20.005+02:00  INFO 32265 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T15:47:31.884+02:00  INFO 32478 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 32478 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:47:31.886+02:00  INFO 32478 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:47:32.878+02:00  INFO 32478 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:47:32.885+02:00  INFO 32478 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:47:32.886+02:00  INFO 32478 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:47:32.926+02:00  INFO 32478 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:47:32.927+02:00  INFO 32478 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1011 ms
+2024-08-03T15:47:33.077+02:00  INFO 32478 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:47:33.316+02:00  INFO 32478 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:47:33.497+02:00  WARN 32478 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:47:33.970+02:00  INFO 32478 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:47:33.985+02:00  INFO 32478 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.448 seconds (process running for 2.853)
+2024-08-03T15:47:34.096+02:00  INFO 32478 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:47:34.096+02:00  INFO 32478 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:47:34.098+02:00  INFO 32478 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-03T15:47:34.453+02:00  INFO 32478 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T15:49:12.419+02:00  INFO 32762 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 32762 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:49:12.421+02:00  INFO 32762 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:49:13.463+02:00  INFO 32762 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:49:13.470+02:00  INFO 32762 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:49:13.470+02:00  INFO 32762 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:49:13.500+02:00  INFO 32762 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:49:13.501+02:00  INFO 32762 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1048 ms
+2024-08-03T15:49:13.661+02:00  INFO 32762 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:49:13.888+02:00  INFO 32762 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:49:14.068+02:00  WARN 32762 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:49:14.525+02:00  INFO 32762 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:49:14.538+02:00  INFO 32762 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.465 seconds (process running for 2.907)
+2024-08-03T15:49:14.648+02:00  INFO 32762 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:49:14.648+02:00  INFO 32762 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:49:14.649+02:00  INFO 32762 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T15:49:14.698+02:00  WARN 32762 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/) at spring-boot-admin ([http://localhost:8080/instances]): 401 : [no body]. Further attempts are logged on DEBUG level
+2024-08-03T15:53:09.704+02:00  INFO 33064 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 33064 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:53:09.706+02:00  INFO 33064 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:53:10.689+02:00  INFO 33064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:53:10.696+02:00  INFO 33064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:53:10.696+02:00  INFO 33064 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:53:10.727+02:00  INFO 33064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:53:10.727+02:00  INFO 33064 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 994 ms
+2024-08-03T15:53:10.890+02:00  INFO 33064 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:53:11.130+02:00  INFO 33064 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:53:11.316+02:00  WARN 33064 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:53:11.768+02:00  INFO 33064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:53:11.783+02:00  INFO 33064 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.425 seconds (process running for 2.896)
+2024-08-03T15:53:11.892+02:00  INFO 33064 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:53:11.892+02:00  INFO 33064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:53:11.893+02:00  INFO 33064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T15:53:11.951+02:00  WARN 33064 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/) at spring-boot-admin ([http://localhost:8080/instances]): 404 : "{"timestamp":"2024-08-03T13:53:11.929+00:00","status":404,"error":"Not Found","path":"/instances"}". Further attempts are logged on DEBUG level
+2024-08-03T15:53:21.022+02:00  WARN 33064 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-08-03T15:53:29.443+02:00  WARN 33064 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-08-03T15:55:12.388+02:00  INFO 33454 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 33454 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:55:12.390+02:00  INFO 33454 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:55:13.430+02:00  INFO 33454 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:55:13.437+02:00  INFO 33454 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:55:13.438+02:00  INFO 33454 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:55:13.471+02:00  INFO 33454 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:55:13.471+02:00  INFO 33454 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1051 ms
+2024-08-03T15:55:13.647+02:00  INFO 33454 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:55:13.878+02:00  INFO 33454 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:55:14.059+02:00  WARN 33454 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:55:14.499+02:00  INFO 33454 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:55:14.513+02:00  INFO 33454 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.47 seconds (process running for 2.882)
+2024-08-03T15:55:14.622+02:00  INFO 33454 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:55:14.622+02:00  INFO 33454 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:55:14.624+02:00  INFO 33454 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T15:55:14.677+02:00  WARN 33454 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/) at spring-boot-admin ([http://localhost:8080/instances]): 404 : "{"timestamp":"2024-08-03T13:55:14.658+00:00","status":404,"error":"Not Found","path":"/instances"}". Further attempts are logged on DEBUG level
+2024-08-03T15:57:09.286+02:00  INFO 34180 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 34180 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T15:57:09.288+02:00  INFO 34180 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T15:57:10.349+02:00  INFO 34180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T15:57:10.356+02:00  INFO 34180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T15:57:10.356+02:00  INFO 34180 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T15:57:10.389+02:00  INFO 34180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T15:57:10.389+02:00  INFO 34180 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1067 ms
+2024-08-03T15:57:10.552+02:00  INFO 34180 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T15:57:10.781+02:00  INFO 34180 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T15:57:10.963+02:00  WARN 34180 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T15:57:11.416+02:00  INFO 34180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T15:57:11.430+02:00  INFO 34180 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.5 seconds (process running for 2.895)
+2024-08-03T15:57:11.539+02:00  INFO 34180 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T15:57:11.540+02:00  INFO 34180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T15:57:11.541+02:00  INFO 34180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T15:57:11.598+02:00  WARN 34180 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/) at spring-boot-admin ([http://localhost:8080/instances]): 404 : "{"timestamp":"2024-08-03T13:57:11.578+00:00","status":404,"error":"Not Found","path":"/instances"}". Further attempts are logged on DEBUG level
+2024-08-03T16:00:18.554+02:00  INFO 34812 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 34812 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:00:18.557+02:00  INFO 34812 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:00:19.710+02:00  INFO 34812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:00:19.718+02:00  INFO 34812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:00:19.718+02:00  INFO 34812 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:00:19.751+02:00  INFO 34812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:00:19.752+02:00  INFO 34812 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1155 ms
+2024-08-03T16:00:19.930+02:00  INFO 34812 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:00:20.175+02:00  INFO 34812 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:00:20.369+02:00  WARN 34812 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:00:20.831+02:00  INFO 34812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:00:20.846+02:00  INFO 34812 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.669 seconds (process running for 3.084)
+2024-08-03T16:00:20.953+02:00  INFO 34812 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:00:20.953+02:00  INFO 34812 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:00:20.954+02:00  INFO 34812 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:00:21.015+02:00  WARN 34812 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/) at spring-boot-admin ([http://localhost:8080/instances]): 404 : "{"timestamp":"2024-08-03T14:00:20.991+00:00","status":404,"error":"Not Found","path":"/instances"}". Further attempts are logged on DEBUG level
+2024-08-03T16:01:09.853+02:00  INFO 35158 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 35158 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:01:09.854+02:00  INFO 35158 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:01:10.883+02:00  INFO 35158 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:01:10.891+02:00  INFO 35158 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:01:10.891+02:00  INFO 35158 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:01:10.926+02:00  INFO 35158 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:01:10.927+02:00  INFO 35158 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1042 ms
+2024-08-03T16:01:11.093+02:00  INFO 35158 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:01:11.323+02:00  INFO 35158 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:01:11.495+02:00  WARN 35158 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:01:11.934+02:00  INFO 35158 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:01:11.948+02:00  INFO 35158 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.464 seconds (process running for 2.881)
+2024-08-03T16:01:12.052+02:00  INFO 35158 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:01:12.052+02:00  INFO 35158 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:01:12.053+02:00  INFO 35158 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:01:12.105+02:00  WARN 35158 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/) at spring-boot-admin ([http://localhost:8080/instances]): 404 : "{"timestamp":"2024-08-03T14:01:12.088+00:00","status":404,"error":"Not Found","path":"/instances"}". Further attempts are logged on DEBUG level
+2024-08-03T16:02:15.156+02:00  INFO 35468 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 35468 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:02:15.158+02:00  INFO 35468 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:02:16.186+02:00  INFO 35468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:02:16.193+02:00  INFO 35468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:02:16.193+02:00  INFO 35468 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:02:16.226+02:00  INFO 35468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:02:16.226+02:00  INFO 35468 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1037 ms
+2024-08-03T16:02:16.393+02:00  INFO 35468 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:02:16.633+02:00  INFO 35468 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:02:16.818+02:00  WARN 35468 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:02:17.282+02:00  INFO 35468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:02:17.298+02:00  INFO 35468 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.491 seconds (process running for 2.913)
+2024-08-03T16:02:17.408+02:00  INFO 35468 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:02:17.409+02:00  INFO 35468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:02:17.410+02:00  INFO 35468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:02:17.465+02:00  WARN 35468 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/) at spring-boot-admin ([http://localhost:8080/instances]): 404 : "{"timestamp":"2024-08-03T14:02:17.445+00:00","status":404,"error":"Not Found","path":"/instances"}". Further attempts are logged on DEBUG level
+2024-08-03T16:04:08.169+02:00  INFO 35821 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 35821 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:04:08.170+02:00  INFO 35821 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:04:09.196+02:00  INFO 35821 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:04:09.203+02:00  INFO 35821 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:04:09.203+02:00  INFO 35821 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:04:09.236+02:00  INFO 35821 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:04:09.236+02:00  INFO 35821 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1039 ms
+2024-08-03T16:04:09.399+02:00  INFO 35821 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:04:09.637+02:00  INFO 35821 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:04:09.817+02:00  WARN 35821 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:04:10.277+02:00  INFO 35821 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:04:10.291+02:00  INFO 35821 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.473 seconds (process running for 2.922)
+2024-08-03T16:04:10.397+02:00  INFO 35821 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:04:10.397+02:00  INFO 35821 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:04:10.398+02:00  INFO 35821 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:04:10.761+02:00  INFO 35821 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T16:04:48.788+02:00  WARN 35821 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T16:07:01.361+02:00  INFO 36061 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 36061 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:07:01.363+02:00  INFO 36061 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:07:02.354+02:00  INFO 36061 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:07:02.360+02:00  INFO 36061 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:07:02.361+02:00  INFO 36061 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:07:02.391+02:00  INFO 36061 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:07:02.392+02:00  INFO 36061 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 999 ms
+2024-08-03T16:07:02.553+02:00  INFO 36061 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:07:02.795+02:00  INFO 36061 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:07:02.977+02:00  WARN 36061 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:07:03.419+02:00  INFO 36061 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:07:03.433+02:00  INFO 36061 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.422 seconds (process running for 2.939)
+2024-08-03T16:07:03.538+02:00  INFO 36061 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:07:03.538+02:00  INFO 36061 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:07:03.539+02:00  INFO 36061 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:07:03.891+02:00  INFO 36061 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T16:09:29.125+02:00  WARN 36061 --- [http-nio-8080-exec-11] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T16:09:33.529+02:00  WARN 36061 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T16:09:33.532+02:00 ERROR 36061 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: Relais brisé (pipe)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:559) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1244) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:400) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389) ~[spring-web-6.1.11.jar:6.1.11]
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:153) ~[na:na]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1207) ~[jackson-core-2.17.2.jar:2.17.2]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063) ~[jackson-databind-2.17.2.jar:2.17.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:123) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:389) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:332) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T16:09:33.531+02:00 ERROR 36061 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: Relais brisé (pipe)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:559) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1244) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:400) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389) ~[spring-web-6.1.11.jar:6.1.11]
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:153) ~[na:na]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1207) ~[jackson-core-2.17.2.jar:2.17.2]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063) ~[jackson-databind-2.17.2.jar:2.17.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:123) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:389) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:332) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T16:09:33.531+02:00 ERROR 36061 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: Relais brisé (pipe)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:559) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1244) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:400) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389) ~[spring-web-6.1.11.jar:6.1.11]
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:153) ~[na:na]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1207) ~[jackson-core-2.17.2.jar:2.17.2]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063) ~[jackson-databind-2.17.2.jar:2.17.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:123) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:389) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:332) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T16:09:33.537+02:00 ERROR 36061 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: Relais brisé (pipe)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:559) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1244) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:400) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389) ~[spring-web-6.1.11.jar:6.1.11]
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:153) ~[na:na]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1207) ~[jackson-core-2.17.2.jar:2.17.2]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063) ~[jackson-databind-2.17.2.jar:2.17.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:123) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:389) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:332) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T16:09:33.537+02:00 ERROR 36061 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: Relais brisé (pipe)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:559) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1244) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:400) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389) ~[spring-web-6.1.11.jar:6.1.11]
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:153) ~[na:na]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1207) ~[jackson-core-2.17.2.jar:2.17.2]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063) ~[jackson-databind-2.17.2.jar:2.17.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:123) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:389) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:332) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T16:09:33.537+02:00 ERROR 36061 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: Relais brisé (pipe)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:559) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1244) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:400) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389) ~[spring-web-6.1.11.jar:6.1.11]
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:153) ~[na:na]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1207) ~[jackson-core-2.17.2.jar:2.17.2]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063) ~[jackson-databind-2.17.2.jar:2.17.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:123) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:389) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:332) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T16:09:53.601+02:00 ERROR 36061 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: Relais brisé (pipe)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:559) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1244) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:400) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:135) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:128) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:44) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:389) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:332) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T16:09:53.603+02:00 ERROR 36061 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: Relais brisé (pipe)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:559) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1244) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:400) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:135) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:128) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:44) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:389) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:332) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T16:09:54.204+02:00 ERROR 36061 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: Relais brisé (pipe)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:559) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1244) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:400) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:135) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:128) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:44) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:389) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:332) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T16:09:54.208+02:00 ERROR 36061 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: Relais brisé (pipe)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:559) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1244) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:400) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:135) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:128) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:44) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:389) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:332) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T16:10:16.927+02:00  INFO 36384 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 36384 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:10:16.929+02:00  INFO 36384 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:10:17.934+02:00  INFO 36384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:10:17.941+02:00  INFO 36384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:10:17.941+02:00  INFO 36384 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:10:17.973+02:00  INFO 36384 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:10:17.973+02:00  INFO 36384 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1015 ms
+2024-08-03T16:10:18.131+02:00  INFO 36384 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:10:18.361+02:00  INFO 36384 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:10:18.545+02:00  WARN 36384 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:10:18.932+02:00  INFO 36384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:10:18.946+02:00  INFO 36384 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.392 seconds (process running for 2.829)
+2024-08-03T16:10:19.454+02:00  INFO 36384 --- [RMI TCP Connection(1)-192.168.1.16] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:10:19.455+02:00  INFO 36384 --- [RMI TCP Connection(1)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:10:19.456+02:00  INFO 36384 --- [RMI TCP Connection(1)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:10:58.799+02:00  INFO 36564 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 36564 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:10:58.801+02:00  INFO 36564 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:10:59.821+02:00  INFO 36564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:10:59.828+02:00  INFO 36564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:10:59.829+02:00  INFO 36564 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:10:59.859+02:00  INFO 36564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:10:59.859+02:00  INFO 36564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1032 ms
+2024-08-03T16:11:00.018+02:00  INFO 36564 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:11:00.255+02:00  INFO 36564 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:11:00.439+02:00  WARN 36564 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:11:00.806+02:00  INFO 36564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:11:00.820+02:00  INFO 36564 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.393 seconds (process running for 2.881)
+2024-08-03T16:11:01.317+02:00  INFO 36564 --- [RMI TCP Connection(3)-192.168.1.16] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:11:01.318+02:00  INFO 36564 --- [RMI TCP Connection(3)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:11:01.319+02:00  INFO 36564 --- [RMI TCP Connection(3)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:11:41.399+02:00  WARN 36564 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T16:11:53.371+02:00  INFO 36762 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 36762 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:11:53.373+02:00  INFO 36762 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:11:54.397+02:00  INFO 36762 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:11:54.404+02:00  INFO 36762 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:11:54.404+02:00  INFO 36762 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:11:54.436+02:00  INFO 36762 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:11:54.436+02:00  INFO 36762 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1031 ms
+2024-08-03T16:11:54.596+02:00  INFO 36762 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:11:54.825+02:00  INFO 36762 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:11:55.009+02:00  WARN 36762 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:11:55.462+02:00  INFO 36762 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:11:55.476+02:00  INFO 36762 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.465 seconds (process running for 2.878)
+2024-08-03T16:11:55.585+02:00  INFO 36762 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:11:55.585+02:00  INFO 36762 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:11:55.586+02:00  INFO 36762 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:11:55.947+02:00  INFO 36762 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T16:12:22.118+02:00  WARN 36762 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T16:12:27.170+02:00  WARN 36762 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T16:12:47.350+02:00  WARN 36762 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T16:16:15.409+02:00  INFO 37327 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 37327 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:16:15.411+02:00  INFO 37327 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:16:16.439+02:00  INFO 37327 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:16:16.446+02:00  INFO 37327 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:16:16.446+02:00  INFO 37327 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:16:16.476+02:00  INFO 37327 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:16:16.477+02:00  INFO 37327 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1035 ms
+2024-08-03T16:16:16.649+02:00  INFO 37327 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:16:16.881+02:00  INFO 37327 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:16:17.059+02:00  WARN 37327 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:16:17.512+02:00  INFO 37327 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:16:17.526+02:00  INFO 37327 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.456 seconds (process running for 2.875)
+2024-08-03T16:16:17.634+02:00  INFO 37327 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:16:17.635+02:00  INFO 37327 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:16:17.636+02:00  INFO 37327 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:16:17.841+02:00  WARN 37327 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/) at spring-boot-admin ([http://localhost:8080/instances]): 401 : [no body]. Further attempts are logged on DEBUG level
+2024-08-03T16:18:55.589+02:00  INFO 37578 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 37578 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:18:55.590+02:00  INFO 37578 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:18:56.589+02:00  INFO 37578 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:18:56.596+02:00  INFO 37578 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:18:56.596+02:00  INFO 37578 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:18:56.627+02:00  INFO 37578 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:18:56.627+02:00  INFO 37578 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1007 ms
+2024-08-03T16:18:56.785+02:00  INFO 37578 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:18:57.015+02:00  INFO 37578 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:18:57.197+02:00  WARN 37578 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:18:57.655+02:00  INFO 37578 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:18:57.669+02:00  INFO 37578 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.44 seconds (process running for 2.907)
+2024-08-03T16:18:57.780+02:00  INFO 37578 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:18:57.780+02:00  INFO 37578 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:18:57.781+02:00  INFO 37578 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:18:58.132+02:00  INFO 37578 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T16:19:35.707+02:00  WARN 37578 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T16:19:42.153+02:00 ERROR 37578 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: Relais brisé (pipe)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:559) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1244) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:400) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:135) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:128) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:44) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:389) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:332) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T16:19:42.167+02:00 ERROR 37578 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: Relais brisé (pipe)
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:559) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1244) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:400) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:524) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:135) ~[spring-core-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:128) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:44) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:389) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:332) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2024-08-03T16:24:55.914+02:00  INFO 38585 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 38585 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:24:55.916+02:00  INFO 38585 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:24:56.964+02:00  INFO 38585 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:24:56.978+02:00  INFO 38585 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:24:56.979+02:00  INFO 38585 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:24:57.012+02:00  INFO 38585 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:24:57.012+02:00  INFO 38585 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+2024-08-03T16:24:57.235+02:00  INFO 38585 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:24:57.524+02:00  INFO 38585 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:24:57.743+02:00  WARN 38585 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:24:58.294+02:00  INFO 38585 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:24:58.317+02:00  INFO 38585 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.756 seconds (process running for 3.197)
+2024-08-03T16:24:58.470+02:00  INFO 38585 --- [RMI TCP Connection(3)-192.168.1.16] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:24:58.470+02:00  INFO 38585 --- [RMI TCP Connection(3)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:24:58.472+02:00  INFO 38585 --- [RMI TCP Connection(3)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-03T16:24:58.730+02:00  WARN 38585 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/) at spring-boot-admin ([http://localhost:8080/instances]): 401 : [no body]. Further attempts are logged on DEBUG level
+2024-08-03T16:31:09.623+02:00  INFO 40269 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 40269 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:31:09.624+02:00  INFO 40269 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:31:10.599+02:00  INFO 40269 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:31:10.607+02:00  INFO 40269 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:31:10.607+02:00  INFO 40269 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:31:10.646+02:00  INFO 40269 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:31:10.647+02:00  INFO 40269 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 996 ms
+2024-08-03T16:31:10.819+02:00  INFO 40269 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:31:11.090+02:00  INFO 40269 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:31:11.289+02:00  WARN 40269 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:31:11.736+02:00  INFO 40269 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:31:11.750+02:00  INFO 40269 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.467 seconds (process running for 2.917)
+2024-08-03T16:31:11.853+02:00  INFO 40269 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:31:11.853+02:00  INFO 40269 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:31:11.854+02:00  INFO 40269 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:31:12.065+02:00  WARN 40269 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://trodix.local:8080/actuator, healthUrl=http://trodix.local:8080/actuator/health, serviceUrl=http://trodix.local:8080/) at spring-boot-admin ([http://localhost:8080/instances]): 401 : [no body]. Further attempts are logged on DEBUG level
+2024-08-03T16:31:24.460+02:00  INFO 40445 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 40445 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:31:24.462+02:00  INFO 40445 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:31:25.528+02:00  INFO 40445 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:31:25.535+02:00  INFO 40445 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:31:25.536+02:00  INFO 40445 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:31:25.572+02:00  INFO 40445 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:31:25.572+02:00  INFO 40445 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1080 ms
+2024-08-03T16:31:25.748+02:00  INFO 40445 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:31:25.975+02:00  INFO 40445 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:31:26.158+02:00  WARN 40445 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:31:26.611+02:00  INFO 40445 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:31:26.625+02:00  INFO 40445 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.518 seconds (process running for 2.975)
+2024-08-03T16:31:26.949+02:00  INFO 40445 --- [RMI TCP Connection(2)-192.168.1.16] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:31:26.950+02:00  INFO 40445 --- [RMI TCP Connection(2)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:31:26.951+02:00  INFO 40445 --- [RMI TCP Connection(2)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:31:27.063+02:00  INFO 40445 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T16:32:20.071+02:00  WARN 40445 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T16:33:03.203+02:00  INFO 40725 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 40725 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:33:03.204+02:00  INFO 40725 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:33:04.195+02:00  INFO 40725 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:33:04.202+02:00  INFO 40725 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:33:04.202+02:00  INFO 40725 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:33:04.238+02:00  INFO 40725 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:33:04.238+02:00  INFO 40725 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1002 ms
+2024-08-03T16:33:04.408+02:00  INFO 40725 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:33:04.640+02:00  INFO 40725 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:33:04.834+02:00  WARN 40725 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-08-03T16:33:05.296+02:00  INFO 40725 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:33:05.311+02:00  INFO 40725 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 2.444 seconds (process running for 2.892)
+2024-08-03T16:33:05.496+02:00  INFO 40725 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T16:33:05.514+02:00  INFO 40725 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:33:05.514+02:00  INFO 40725 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:33:05.515+02:00  INFO 40725 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:33:29.035+02:00  WARN 40725 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Relais brisé (pipe)]
+2024-08-03T16:34:19.710+02:00  INFO 41070 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 41070 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:34:19.712+02:00  INFO 41070 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:34:20.516+02:00  INFO 41070 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:34:20.523+02:00  INFO 41070 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:34:20.524+02:00  INFO 41070 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:34:20.550+02:00  INFO 41070 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:34:20.551+02:00  INFO 41070 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 807 ms
+2024-08-03T16:34:20.682+02:00  INFO 41070 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:34:20.870+02:00  INFO 41070 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:34:21.100+02:00  INFO 41070 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:34:21.117+02:00  INFO 41070 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 1.812 seconds (process running for 2.26)
+2024-08-03T16:34:21.247+02:00  INFO 41070 --- [RMI TCP Connection(1)-192.168.1.16] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:34:21.247+02:00  INFO 41070 --- [RMI TCP Connection(1)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:34:21.249+02:00  INFO 41070 --- [RMI TCP Connection(1)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-03T16:34:21.249+02:00  INFO 41070 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T16:36:28.683+02:00  INFO 41332 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 41332 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:36:28.685+02:00  INFO 41332 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:36:29.513+02:00  INFO 41332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:36:29.520+02:00  INFO 41332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:36:29.520+02:00  INFO 41332 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:36:29.547+02:00  INFO 41332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:36:29.547+02:00  INFO 41332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 829 ms
+2024-08-03T16:36:29.674+02:00  INFO 41332 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:36:29.854+02:00  INFO 41332 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:36:30.071+02:00  INFO 41332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:36:30.084+02:00  INFO 41332 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 1.685 seconds (process running for 1.977)
+2024-08-03T16:36:30.240+02:00  INFO 41332 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
+2024-08-03T16:36:30.257+02:00  INFO 41332 --- [RMI TCP Connection(2)-192.168.1.16] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:36:30.258+02:00  INFO 41332 --- [RMI TCP Connection(2)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:36:30.259+02:00  INFO 41332 --- [RMI TCP Connection(2)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-03T16:37:40.343+02:00  INFO 41520 --- [main] c.t.d.s.SslBundleManageApplication       : Starting SslBundleManageApplication using Java 17.0.5 with PID 41520 (/home/sebastien/Documents/workspace/ssl-bundle-manage/target/classes started by sebastien in /home/sebastien/Documents/workspace/ssl-bundle-manage)
+2024-08-03T16:37:40.345+02:00  INFO 41520 --- [main] c.t.d.s.SslBundleManageApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:37:41.208+02:00  INFO 41520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-03T16:37:41.216+02:00  INFO 41520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:37:41.217+02:00  INFO 41520 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:37:41.246+02:00  INFO 41520 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:37:41.246+02:00  INFO 41520 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 866 ms
+2024-08-03T16:37:41.386+02:00  INFO 41520 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T16:37:41.569+02:00  INFO 41520 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-08-03T16:37:41.795+02:00  INFO 41520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-03T16:37:41.810+02:00  INFO 41520 --- [main] c.t.d.s.SslBundleManageApplication       : Started SslBundleManageApplication in 1.783 seconds (process running for 2.089)
+2024-08-03T16:37:41.909+02:00  INFO 41520 --- [RMI TCP Connection(3)-192.168.1.16] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:37:41.910+02:00  INFO 41520 --- [RMI TCP Connection(3)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:37:41.912+02:00  INFO 41520 --- [RMI TCP Connection(3)-192.168.1.16] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-03T16:37:41.970+02:00  INFO 41520 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as d8cf5d6447c9
