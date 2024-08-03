@@ -2,7 +2,7 @@
   <configuration default="false" name="SslBundleManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
     <module name="ssl-bundle-manage" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.trodix.demo.sslbundlemanage.SslBundleManageApplication" />
-    <option name="VM_PARAMETERS" value="-Djavax.net.ssl.trustStore=file://$PROJECT_DIR$/src/main/resources/certs/mytruststore1.jks -Djavax.net.ssl.trustStorePassword=changeit -Djavax.net.ssl.keyStore=file://$PROJECT_DIR$/src/main/resources/certs/mykeystore1.p12 -Djavax.net.ssl.keyStorePassword=password" />
+    <option name="VM_PARAMETERS" value="-Djavax.net.ssl.trustStore=src/main/resources/certs/mytruststore1.jks -Djavax.net.ssl.trustStorePassword=changeit -Djavax.net.ssl.keyStore=src/main/resources/certs/mykeystore1.p12 -Djavax.net.ssl.keyStorePassword=password" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

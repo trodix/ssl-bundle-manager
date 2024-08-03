@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
 import javax.net.ssl.X509TrustManager;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigInteger;
@@ -144,12 +145,18 @@ public class CertificateUtils {
     public List<X509Certificate> listCertificates(String filePath, String password) throws NoSuchAlgorithmException, IOException, KeyStoreException, CertificateException {
 
         TrustManagerFactory trustManagerFactory = TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
-        try(InputStream fis = resourceLoader.getResource(filePath).getInputStream()) {
 
-            KeyStore keyStore=KeyStore.getInstance(KeyStore.getDefaultType());
-            keyStore.load(fis, password.toCharArray());
-            trustManagerFactory.init(keyStore);
+        InputStream fis;
+        if (filePath.startsWith("classpath:")) {
+            fis = resourceLoader.getResource(filePath).getInputStream();
+        } else {
+            fis = new FileInputStream(filePath);
         }
+
+        KeyStore keyStore = KeyStore.getInstance(KeyStore.getDefaultType());
+        keyStore.load(fis, password.toCharArray());
+        trustManagerFactory.init(keyStore);
+        fis.close();
 
         TrustManager[] trustManagers = trustManagerFactory.getTrustManagers();
         List<X509Certificate> certs = new ArrayList<>();
